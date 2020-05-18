@@ -26,3 +26,5 @@ func main()  {
 	a--
 	fmt.Println(b)
 }
+
+//运算test
