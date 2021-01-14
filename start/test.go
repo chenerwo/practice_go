@@ -2,41 +2,47 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
-func main()  {
-	/*
-	astr := "abcdef"
-	fmt.Println(astr[0])
-	//multi line
-	longStr := `第一行
-second line
-third line
-\r\n`
-	fmt.Println(longStr)
+func main() {
+	var a float32 = 9.92
+	//b := a * 100
+	//c := a + 5.87
+	fmt.Println("val:", a*100)
 
-	af := 5.0
-	ai := int(af)
-	fmt.Println(ai)
+	/*
+			astr := "abcdef"
+			fmt.Println(astr[0])
+			//multi line
+			longStr := `第一行
+		second line
+		third line
+		\r\n`
+			fmt.Println(longStr)
+
+			af := 5.0
+			ai := int(af)
+			fmt.Println(ai)
 	*/
 
 	//输出各数值范围
-	fmt.Println("int8 range:", math.MinInt8, math.MaxInt8)
-	fmt.Println("int16 range:", math.MinInt16, math.MaxInt16)
-	fmt.Println("int32 range:", math.MinInt32, math.MaxInt32)
-	fmt.Println("int64 range:", math.MinInt64, math.MaxInt64)
+	/*
+		fmt.Println("int8 range:", math.MinInt8, math.MaxInt8)
+		fmt.Println("int16 range:", math.MinInt16, math.MaxInt16)
+		fmt.Println("int32 range:", math.MinInt32, math.MaxInt32)
+		fmt.Println("int64 range:", math.MinInt64, math.MaxInt64)
 
-	var a int32 = 1047483647
-	// 输出变量的十六进制形式和十进制值
-	fmt.Printf("int32 : 0x%x %d\n", a, a)
+		var a int32 = 1047483647
+		// 输出变量的十六进制形式和十进制值
+		fmt.Printf("int32 : 0x%x %d\n", a, a)
 
-	b := int16(a)
-	// 输出变量的十六进制形式和十进制值
-	fmt.Printf("int16: 0x%x %d\n", b, b)
+		b := int16(a)
+		// 输出变量的十六进制形式和十进制值
+		fmt.Printf("int16: 0x%x %d\n", b, b)
 
-	// 将常量保存为float32类型
-	var c float32 = math.Pi
-	// 转换为int类型, 浮点发生精度丢失
-	fmt.Println(int(c))
+		// 将常量保存为float32类型
+		var c float32 = math.Pi
+		// 转换为int类型, 浮点发生精度丢失
+		fmt.Println(int(c))
+	*/
 }
