@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//test
 func main() {
 	var n [10]int
 	var i, j int
