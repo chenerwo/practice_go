@@ -35,3 +35,7 @@ array的注释
 /**
 array的注释111
 */
+
+func hehe() int {
+	return 88
+}
