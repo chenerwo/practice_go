@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 //test
+
+//hard two
 func main() {
 	var n [10]int
 	var i int
