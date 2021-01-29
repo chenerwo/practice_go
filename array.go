@@ -14,6 +14,8 @@ func main() {
 		n[i] = i + 100
 	}
 
+	for j = 0; j < 10; j++ {
+		fmt.Printf("Element[%d] = %d\n", j, n[j])
 	for k, v := range n {
 		fmt.Println("keys:", k, v)
 	}
