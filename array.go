@@ -21,6 +21,11 @@ func main() {
 	//for j = 0; j < 10; j++ {
 	//	fmt.Printf("Element[%d] = %d\n", j, n[j])
 	//}
+
+	//rebase
+	for n := 1; n < 20; n++ {
+		fmt.Println('rebase:', n)
+	}
 }
 
 /**
